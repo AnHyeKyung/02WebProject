@@ -286,8 +286,14 @@
         font-weight: 400;
         letter-spacing: -0.48px;
         text-align: center;
+        margin-top: 13px;
     }
-}
+    .line2 {
+        background-color: var(--graye1);
+        width: 1px;
+        height: 48px;
+            }
+    }
 .depth3 {
     position: absolute;
     padding-top: 33px;
@@ -311,11 +317,13 @@
     height: 50px;
     background: var(--red);
     padding-left: 20px;
+    color: var(--white);
     a{
         color: var(--white)
         font-size: 16px;
         font-weight: 700;
         text-align: center;
+        margin-top: 13px;
     }
 }
 .nav2 {
@@ -341,8 +349,10 @@
         width: 16px;
         height: 16px;
         position: absolute;
+        top: 0px;
+        right: 0px;
         display: flex;
-        justify-content: flex-end;
+        /*justify-content: flex-end;*/
         padding: 17px;
     }
 }
@@ -375,27 +385,133 @@
     }
 }
 .item1 {
-    
+    position: relative;
+    .business {
+        position: absolute;
+        left: 69px;
+        top: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 36px;
+        margin: 8px 12px;
+        background-color: var(--orange);
+        border-radius: 20px;
+        color: var(--white);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+    } 
+    .coin {
+        position: absolute;
+        top: 202px;
+        right: 69px;
+        display: flex;
+        width: 70px;
+        height: 36px;
+        margin: 8px 12px;
+        color: var(--gray66);
+        background-color: var(--white);
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        img {
+            margin-right: 5px;
+            width: 18px;
+            height: 18px;
+
+        }
+    }
 }
-.business {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 36px;
-    padding: 8px 12px;
-    background-color: var(--orange);
-    border-radius: 20px;
-    color: var(--white);
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
+.item2{
+    position: relative;
+    .global {
+        position: absolute;
+        left: 69px;
+        top: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 36px;
+        margin: 8px 12px;
+        background-color: #B174EE;
+        border-radius: 20px;
+        color: var(--white);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .coin {
+        position: absolute;
+        top: 202px;
+        right: 69px;
+        display: flex;
+        width: 70px;
+        height: 36px;
+        margin: 8px 12px;
+        color: var(--gray66);
+        background-color: var(--white);
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        img {
+            margin-right: 5px;
+            width: 18px;
+            height: 18px;
+
+        }
+    }
+}
+.item3{
+    position: relative;
+    .coin {
+        position: absolute;
+        top: 202px;
+        right: 69px;
+        display: flex;
+        width: 70px;
+        height: 36px;
+        margin: 8px 12px;
+        color: var(--gray66);
+        background-color: var(--white);
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        img {
+            margin-right: 5px;
+            width: 18px;
+            height: 18px;
+
+        }
+    }
+    .work {
+        position: absolute;
+        left: 69px;
+        top: 202px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 36px;
+        margin: 8px 12px;
+        background-color: var(--blue2);
+        border-radius: 20px;
+        color: var(--white);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        }
 }
 .text-style1{
     color: var(--gray33);
     font-size: 16px;
     font-weight: 700;
-    padding-top: 21px;
+    padding-top: 39px;
 }
 .text-style2 {
     color: var(--gray99);
