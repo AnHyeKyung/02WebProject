@@ -12,6 +12,7 @@
   --white: #fff;
   --black: #000;
   --blue: #488ad8;
+  --blue2: #5495D0;
   --gray33: #333333;
   --gray66: #666666;
   --gray99: #999999;
@@ -19,7 +20,8 @@
   --graye1: #e1e1e1;
   --green: #75cb67;
   --orange: #f08a40;
-  --puple: #b174ee;
+  --orange2: #F6C034;
+  --purple: #b174ee;
   --red: #fc817c;
   --grayf2: #f2f2f2;
 
@@ -248,8 +250,10 @@
 }
 /* main */
 .wrap {
+    padding-left: 348px;
+    padding-right: 348px;
     width: 1224px;
-    height: 1891px;
+    height: 2932px;
     padding-top: 80px;
 }
 .title__small {
@@ -319,14 +323,100 @@
     padding-top: 30px;
 }
 .rectangle2 {
+    position: relative;
+    display: flex;
+    margin-top: 164px;
     color: #FFF;
     font-family: var(--roboto)
     font-size: 16px;
     line-height: 100%;
-    fill: #4E4E4E;
-    stroke-width: 1px;
-    stroke: #3E3E3E;
+    background: #4E4E4E;
+    border : 1px solid #3E3E3E;
     width: 809px;
     height: 50px;
-    flex-shrink: 0;
+    p{
+        padding: 20px 17px 0 17px;
+    }
+    img {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        padding: 17px;
+    }
+}
+.grid { 
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 417px 417px 417px 417px;
+    grid-row-gap: 30px;
+    grid-column-gap :12px;
+}
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 1224px;
+    height: 72px;
+    border: 1px solid #999;
+    background: #FFF;
+    a{
+        color: var(--black);
+        font-size: 14px;
+        font-weight: 700;
+    }
+    img {
+        width: 11px;
+        height: 11px;
+        padding-left: 10px;
+    }
+}
+.item1 {
+    
+}
+.business {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 36px;
+    padding: 8px 12px;
+    background-color: var(--orange);
+    border-radius: 20px;
+    color: var(--white);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.text-style1{
+    color: var(--gray33);
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 21px;
+}
+.text-style2 {
+    color: var(--gray99);
+    font-size: 14px;
+    padding-top: 6px;
+}
+.text-style3 {
+    color: var(--gray66);
+    font-size: 14px;
+    padding-top: 6px;
+}
+.text-style4 {
+    color: var(--gray33);
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+.line {
+    width: 288px;
+    height: 1px;
+    background-color: var(--graye1);
+    margin-top: 15px;
 }
